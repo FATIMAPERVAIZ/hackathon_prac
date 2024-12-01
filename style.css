@@ -1,0 +1,45 @@
+body,html{
+    height:100%;
+    margin:0;
+}
+
+.bg-container{
+    background: url('https://www.shutterstock.com/image-photo/profile-photo-attractive-family-doc-600nw-1724693776.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    color: rgb(22, 11, 11);
+    font-family: Arial, sans-serif;
+}
+.content {
+    position: absolute;
+    bottom: 50px; /* Adjust the vertical position of the content */
+    width: 100%;
+    text-align: center;
+    color: rgb(19, 14, 14);
+    text-shadow: 1px 1px 2px black;
+  }
+.btn-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  .btn-circle:hover {
+    background-color: white;
+    color: black;
+  }
+  .skip {
+    position: absolute;
+    bottom: 20px; /* Adjust to match the content */
+    left: 20px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .skip:hover {
+    text-decoration: underline;
+  }
